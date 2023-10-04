@@ -4,7 +4,6 @@ import Searchbar from "@/components/Searchbar"; // Importing the Searchbar compo
 import Image from "next/image"; // Importing the Image component from Next.js
 import { getAllProducts } from "@/lib/actions"; // Importing a function to fetch all products
 import ProductCard from "@/components/ProductCard"; // Importing the ProductCard component
-import Footer from "@/components/Footer";
 
 // Define the HomePage component as an async function
 const HomePage = async () => {
